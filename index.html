@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="biblioteca.css" />
+  <title>Libreria</title>
+</head>
+
+<body class="bpage">
+  <nav class="navbar navbar-expand-lg navbar-dark navbarclass ml-auto">
+    <div class="ml-auto">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mi Cuenta</a>
+          </li>
+        </ul>
+      </div>  
+    </div>
+  </nav>  
+  <div class="container content">
+    <h1 class="font-title m-1 p-2">Libreria</h1>
+    <div class="row">
+      <div class="col-9">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="isearch" type="search" placeholder="Puedes buscar por: autor, titulo, o palabra clave"
+            aria-label="Busqueda ">
+          <button class="bsearch ml-2" type="submit">Buscar</button>
+        </form>
+      </div>
+      <div class="col-2">
+        <button type="button" class="bcart ml-auto pt-1">
+          <h6>
+            <svg height="25px" width="25px" viewBox="0 -31 512.00033 512" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m166 300.003906h271.003906c6.710938 0 12.597656-4.4375 14.414063-10.882812l60.003906-210.003906c1.289063-4.527344.40625-9.390626-2.433594-13.152344-2.84375-3.75-7.265625-5.964844-11.984375-5.964844h-365.632812l-10.722656-48.25c-1.523438-6.871094-7.617188-11.75-14.648438-11.75h-91c-8.289062 0-15 6.710938-15 15 0 8.292969 6.710938 15 15 15h78.960938l54.167968 243.75c-15.9375 6.929688-27.128906 22.792969-27.128906 41.253906 0 24.8125 20.1875 45 45 45h271.003906c8.292969 0 15-6.707031 15-15 0-8.289062-6.707031-15-15-15h-271.003906c-8.261719 0-15-6.722656-15-15s6.738281-15 15-15zm0 0" />
+              <path
+                d="m151 405.003906c0 24.816406 20.1875 45 45.003906 45 24.8125 0 45-20.183594 45-45 0-24.8125-20.1875-45-45-45-24.816406 0-45.003906 20.1875-45.003906 45zm0 0" />
+              <path
+                d="m362.003906 405.003906c0 24.816406 20.1875 45 45 45 24.816406 0 45-20.183594 45-45 0-24.8125-20.183594-45-45-45-24.8125 0-45 20.1875-45 45zm0 0" />
+            </svg>
+            </i><span class="badge badge-light ml-2">9</span></h6>
+          <span class="sr-only">unread messages</span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-8 col-lg-10">
+          <div class="row">
+            <div class="card m-1" style="width: 14rem;">
+              <img src="./img/book-old.jpg" class="card-img-top" alt="book-old">
+              <div class="card-body">
+                <h5 class="card-title">Nombre de Libro</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+            <div class="card m-1" style="width: 14rem">
+              <img src="./img/book-old.jpg" class="card-img-top" alt="book-old">
+              <div class="card-body">
+                <h5 class="card-title">Nombre de Libro</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+            <div class="card m-1" style="width: 14rem">
+              <img src="./img/book-old.jpg" class="card-img-top" alt="book-old">
+              <div class="card-body">
+                <h5 class="card-title">Nombre de Libro</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border bg-success col-4 col-lg-2 " >
+          <ul id="filter">
+            <li>
+              <a href="">Terror</a>
+            </li>
+            <li>
+              <a href="">Suspenso</a>
+            </li>
+            <li>
+              <a href="">Drama</a>
+            </li>
+            <li>
+              <a href="">Novelas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</html>

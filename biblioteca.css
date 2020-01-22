@@ -1,0 +1,120 @@
+nav a:link, a:visited, a:active  {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:active, a:hover{
+    color: blue;
+}
+.bpage{
+    background-image: url("./img/biblioteca.jpeg");
+}
+.navbarclass {
+    border-color: black;
+    background-color: rgb(168, 66, 66);
+    z-index: 1;
+}
+.content{
+    margin-top: 1rem;
+    background-color: rgb(218, 216, 216);
+
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+
+@font-face {
+    font-family: "Magiera Script";
+    src: url(MagieraScript.ttf);
+  }
+.font-title{
+    font-family: "Magiera Script";
+    font-size: 40px;
+}
+.isearch{
+    width: 50%;
+    height: 30px;
+    border-radius: 8px;
+    z-index: 0;
+}
+.bsearch {
+    font-size: 18px;
+    padding: 1px 12px;
+    border-radius: 8px;
+    border: 2px solid coral; 
+    background-color: chocolate;
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+}
+.card-img-top{
+    width: 180px; height: 180px;
+}
+
+.bcomprar{
+    font-size: 18px;
+    padding: 1px 12px;
+    border-radius: 8px;
+    border: 2px solid  greenyellow;
+    background-color: green;
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+}
+.bcart{
+    float: right;
+    border-radius: 8px;
+    border: 2px solid  greenyellow;
+    background-color: green;
+
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+}
+
+#filter a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+#filter li{
+    list-style: none;
+}
+#filter{
+    padding-inline-start: 10px;
+}
